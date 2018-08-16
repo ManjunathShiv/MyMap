@@ -41,7 +41,6 @@
 		94F09402DFD0B904C759B75B /* Pods_Philips_MapsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868B192B34B9D87168498186 /* Pods_Philips_MapsUITests.framework */; };
 		C1D25588790B5340DA99BDFB /* Pods_MyMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0FC782DC84A8B4FD464AC6C /* Pods_MyMapUITests.framework */; };
 		D8DDA07142F9F4C83326365B /* Pods_MyMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7385EA2C14767FDA82D7203F /* Pods_MyMapTests.framework */; };
-		F12B7EBD907EFC1563D3078A /* Pods_Philips_Maps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A083F6160CBBF2FE6C6EDEDC /* Pods_Philips_Maps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,7 +173,6 @@
 				780A7AD61FEB6C9D003F408D /* GoogleMaps.framework in Frameworks */,
 				780A7AD71FEB6C9D003F408D /* GoogleMapsCore.framework in Frameworks */,
 				780A7AD81FEB6C9D003F408D /* GoogleMapsBase.framework in Frameworks */,
-				F12B7EBD907EFC1563D3078A /* Pods_Philips_Maps.framework in Frameworks */,
 				3FCC4B1E6767E67B72A49816 /* Pods_MyMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,7 +519,6 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MyMap/Pods-MyMap-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -698,7 +695,7 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/MyMaps",
+					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Frameworks",
 					"$(PROJECT_DIR)",
 				);
